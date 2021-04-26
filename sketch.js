@@ -94,7 +94,7 @@ function keyPressed() {
 }
 
 function mouseClicked() {
-  if (keyCode === ENTER) {
+
     t += 30;
     if (incColor) {
       c += 10;
@@ -102,7 +102,6 @@ function mouseClicked() {
       c -= 10;
     }
     addCircle();
-  }
 }
 
 function addCircle() {
